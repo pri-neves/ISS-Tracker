@@ -17,7 +17,7 @@ export default class MeteorScreen extends Component{
 
     getMeteors = () =>{
         axios
-        .get('https://api.nasa.gov/neo/rest/v1/feed?api_key=p9iXNDZgfzkqAYzWa5S9N0AxsAHcOHfMvYLf45vG')
+        .get('https://api.nasa.gov/neo/rest/v1/feed?api_key=SUACHAVEAQUI')
         .then((response)=>{
             this.setState({
                 meteors:response.data.near_earth_objects
